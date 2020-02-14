@@ -2,7 +2,7 @@ public class BinaryRecursiveSearch implements Practice03Search{
 	public int search(int [] arr, int target){
 		int max = arr.length - 1;
 		int min = 0;
-		binSearch(arr, target, max, min);
+		return binSearch(arr, target, max, min);
 	}
 
 	public int binSearch(int [] a, int target, int max, int min){
